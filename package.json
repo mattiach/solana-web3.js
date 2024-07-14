@@ -1,0 +1,42 @@
+{
+  "name": "solana-client-app",
+  "version": "1.0.0",
+  "description": "Solana client app designed to receive airdrops, facilitate SOL transfers between various wallets and generate new key pairs using TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "keygen": "ts-node ./src/keygen.ts",
+    "airdrop": "ts-node ./src/airdrop.ts",
+    "transfer": "ts-node ./src/transfer.ts",
+    "check-my-balance": "ts-node ./src/check-my-balance.ts",
+    "check-wallet-balance": "ts-node ./src/check-wallet-balance.ts",
+    "create-mint": "ts-node ./src/spl-init.ts",
+    "mint-token": "ts-node ./src/spl-mint.ts",
+    "transfer-token": "ts-node ./src/spl-transfer.ts",
+    "upload-image": "ts-node ./src/upload-image.ts",
+    "spl-metadata": "ts-node ./src/spl-metadata.ts",
+    "spl-metadata2": "ts-node ./src/spl-metadata2.ts",
+    "transfer-with-message": "ts-node ./src/transfer-with-message.ts",
+    "trasfer-specific-token": "ts-node ./src/trasfer-specific-token.ts"
+  },
+  "author": {
+    "name": "mattiach",
+    "url": "https://www.linkedin.com/in/mattiach/",
+    "github": "https://github.com/mattiach"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@metaplex-foundation/mpl-token-metadata": "^3.2.1",
+    "@metaplex-foundation/umi-bundle-defaults": "^0.9.2",
+    "@metaplex-foundation/umi-uploader-irys": "^0.9.2",
+    "@solana-developers/helpers": "^2.3.0",
+    "@solana/spl-memo": "^0.2.5",
+    "@solana/spl-token": "^0.4.8",
+    "@solana/web3.js": "^1.95.0",
+    "@types/node": "^20.14.10",
+    "bs58": "^6.0.0",
+    "typescript": "^5.5.3"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
