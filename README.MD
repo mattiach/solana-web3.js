@@ -1,5 +1,7 @@
 # Solana-Client-App
 
+[![deprecated](http://badges.github.io/stability-badges/dist/deprecated.svg)](http://github.com/badges/stability-badges)
+
 ## Description
 
 Solana client app designed to receive airdrops, facilitate SOL transfers between various wallets, and generate new key pairs using TypeScript.
